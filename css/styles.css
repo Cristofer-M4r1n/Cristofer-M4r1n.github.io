@@ -1,0 +1,30 @@
+ul {
+  list-style: none;
+}
+
+.submenu {
+  position: relative;
+}
+
+/* Estilo para el navbar */
+.navbar {
+  background-color: #fff; /* Restaurar el color de fondo original */
+}
+
+/* Mostrar la tabla del carrito al pasar el mouse sobre el enlace "Carrito" */
+.dropdown.submenu:hover .dropdown-menu {
+  display: block !important; /* Asegurar que la tabla se muestre */
+}
+
+/* Estilo para la tabla del carrito */
+.dropdown.submenu .dropdown-menu {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  z-index: 1;
+  background-color: white;
+  padding: 20px;
+  min-height: 400px;
+  min-width: 300px;
+  display: none; /* Ocultar la tabla por defecto */
+}
